@@ -1,0 +1,93 @@
+name: Đồng bộ dữ liệu từ nhatnguyet.org
+
+# Một chiều: site -> kho này. KHÔNG BAO GIỜ ghi ngược.
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  repository_dispatch:
+    types: [du-lieu-cap-nhat]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  dong-bo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Tải dữ liệu mới từ site
+        run: |
+          set -euo pipefail
+          mkdir -p moi
+          for slug in $(python3 -c "import json,glob,os;print(' '.join(sorted(os.path.basename(p)[:-10] for p in glob.glob('data/*.meta.json'))))"); do
+            for duoi in csv json meta.json; do
+              curl -sfL --retry 3 --max-time 60 \
+                "https://nhatnguyet.org/du-lieu/$slug.$duoi" -o "moi/$slug.$duoi" || {
+                  echo "::error::không tải được $slug.$duoi"; exit 1; }
+            done
+          done
+
+      - name: Chốt chặn giảm dòng quá 10%
+        id: chot
+        run: |
+          python3 - <<'EOF'
+          import csv, glob, os, sys
+          canh = []
+          for cu in sorted(glob.glob("data/*.csv")):
+              slug = os.path.basename(cu)[:-4]
+              moi = f"moi/{slug}.csv"
+              if not os.path.exists(moi):
+                  canh.append(f"{slug}: bản mới không tồn tại"); continue
+              def dem(p):
+                  with open(p, encoding="utf-8-sig", newline="") as f:
+                      return sum(1 for _ in csv.reader(f)) - 1
+              a, b = dem(cu), dem(moi)
+              if a > 0 and b < a * 0.9:
+                  canh.append(f"{slug}: {a} -> {b} dòng, giảm {100*(a-b)/a:.1f}%")
+          if canh:
+              print("::error::" + "; ".join(canh))
+              open(os.environ["GITHUB_OUTPUT"], "a").write("canh_bao=" + " | ".join(canh) + "\n")
+              sys.exit(1)
+          print("không bộ nào giảm quá ngưỡng")
+          EOF
+
+      - name: Ghi đè và commit khi thật sự đổi
+        run: |
+          set -euo pipefail
+          cp moi/* data/ && rm -rf moi
+          if git diff --quiet -- data/; then
+            echo "dữ liệu không đổi, không commit"
+            exit 0
+          fi
+          python3 - <<'EOF'
+          import datetime, pathlib
+          p = pathlib.Path("CHANGELOG.md")
+          t = p.read_text(encoding="utf-8")
+          moc = f"## {datetime.date.today().isoformat()}"
+          if moc not in t:
+              t = t.replace("## ", moc + "\n\nĐồng bộ dữ liệu từ nhatnguyet.org.\n\n## ", 1)
+              p.write_text(t, encoding="utf-8")
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "data: sync from nhatnguyet.org"
+          git push
+
+      - name: Mở issue khi chốt chặn nổ
+        if: failure() && steps.chot.outputs.canh_bao != ''
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: "Đồng bộ dừng: dữ liệu giảm bất thường",
+              body: "Lượt đồng bộ tự động đã DỪNG và không ghi đè gì.\n\n" +
+                    "\n\n" +
+                    "Giảm nhiều dòng thường là dấu hiệu lỗi trích xuất ở đầu nguồn, " +
+                    "không phải dữ liệu thật sự ít đi. Kiểm nhatnguyet.org/du-lieu trước khi ép chạy lại."
+            });

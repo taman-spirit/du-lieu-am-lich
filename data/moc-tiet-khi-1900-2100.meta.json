@@ -1,0 +1,103 @@
+{
+  "slug": "moc-tiet-khi-1900-2100",
+  "ten": "Mốc bắt đầu 24 tiết khí, 1900 tới 2100",
+  "ten_en": "Start moments of the 24 solar terms, 1900 to 2100",
+  "ten_zh": "二十四节气交节时刻，1900 至 2100",
+  "mo_ta": "Thời điểm bắt đầu từng tiết khí trong 201 năm, tính theo giờ Việt Nam, kèm kinh độ mặt trời của mốc và cờ đánh dấu những mốc rơi sát nửa đêm.",
+  "mo_ta_en": "The start moment of each solar term across 201 years in Vietnam time, with the solar longitude of the mark and a flag for moments falling close to midnight.",
+  "mo_ta_zh": "201 年间每个节气的起始时刻，按越南时间计，附该节气对应的太阳黄经，以及落在午夜前后的时刻标记。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-21",
+  "so_dong": 4824,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "nam",
+      "kieu": "int",
+      "moTa": "Năm dương lịch",
+      "moTaEn": "Solar year",
+      "moTaZh": "公历年"
+    },
+    {
+      "ten": "ten",
+      "kieu": "string",
+      "moTa": "Tên tiết khí",
+      "moTaEn": "Name of the solar term",
+      "moTaZh": "节气名称"
+    },
+    {
+      "ten": "ten_en",
+      "kieu": "string",
+      "moTa": "Tên tiết khí, tiếng Anh",
+      "moTaEn": "Name of the solar term, in English",
+      "moTaZh": "节气名称，英文"
+    },
+    {
+      "ten": "kinh_do",
+      "kieu": "int",
+      "moTa": "Kinh độ mặt trời tại mốc, tính bằng độ",
+      "moTaEn": "Solar longitude at the mark, in degrees",
+      "moTaZh": "该标记点的太阳黄经，以度计"
+    },
+    {
+      "ten": "ngay_bat_dau",
+      "kieu": "string",
+      "moTa": "Ngày bắt đầu, dạng YYYY-MM-DD, giờ Việt Nam",
+      "moTaEn": "Start date, format YYYY-MM-DD, Vietnam time",
+      "moTaZh": "开始日期，格式 YYYY-MM-DD，越南时间"
+    },
+    {
+      "ten": "gio",
+      "kieu": "int",
+      "moTa": "Giờ trong ngày, 0 tới 23",
+      "moTaEn": "Hour of the day, 0 to 23",
+      "moTaZh": "一天中的时辰，0到23"
+    },
+    {
+      "ten": "phut",
+      "kieu": "int",
+      "moTa": "Phút, 0 tới 59",
+      "moTaEn": "Minute, 0 to 59",
+      "moTaZh": "分钟，0到59"
+    },
+    {
+      "ten": "sat_nua_dem",
+      "kieu": "string",
+      "moTa": "co khi mốc cách nửa đêm dưới ba mươi phút, tức sai số có thể đổi cả ngày",
+      "moTaEn": "co when the mark is less than thirty minutes from midnight, meaning the error can change the whole day, khong otherwise",
+      "moTaZh": "co 表示距午夜不足三十分钟，即误差可能改变整日，khong 表示不是"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "SAI SỐ ĐO ĐƯỢC LÀ 4 TỚI 14 PHÚT, LUÔN SỚM HƠN giá trị thiên văn. Đối chiếu ngày 21/09/2026 với ba mốc kiểm được độc lập của năm 2026: Xuân Phân lệch 14 phút, Hạ Chí lệch 9 phút, Đông Chí lệch 4 phút. Nguyên nhân là mô hình vị trí mặt trời của lõi tính dùng chuỗi rút gọn, đủ cho việc xác định NGÀY của tiết khí nhưng chưa đủ để gọi là chính xác tới phút. Cột sat_nua_dem đánh dấu những mốc cách nửa đêm dưới ba mươi phút: ở đúng những dòng ấy, sai số trên có thể đổi cả NGÀY bắt đầu tiết khí, nên đừng dùng chúng để chốt việc mà không đối lại nguồn thiên văn. Giờ ghi theo múi giờ Việt Nam UTC+7. Mốc là lúc kinh độ mặt trời chạm đúng bội số của 15 độ, tìm bằng phép chia đôi khoảng tới khi còn dưới một phút.",
+  "ghi_chu_chung_en": "THE MEASURED ERROR IS 4 TO 14 MINUTES, ALWAYS EARLY relative to astronomical values. Checked on 21 September 2026 against three independently verifiable 2026 marks: the March equinox is off by 14 minutes, the June solstice by 9, the December solstice by 4. The cause is that the engine's solar position model uses a truncated series, good enough to fix the DAY of a term but not enough to call this minute-accurate. The sat_nua_dem column flags moments within thirty minutes of midnight: on exactly those rows the error above can shift the starting DAY, so do not settle anything on them without checking an astronomical source. Times are Vietnam time, UTC+7. The mark is the instant solar longitude reaches an exact multiple of 15 degrees, found by bisection down to under one minute.",
+  "ghi_chu_chung_zh": "实测误差为 4 至 14 分钟，且始终偏早。2026 年 9 月 21 日与 2026 年三个可独立核对的时刻比对：春分差 14 分钟，夏至差 9 分钟，冬至差 4 分钟。原因是引擎的太阳位置模型采用截断级数，足以确定节气所在的日期，但还不足以称为精确到分。sat_nua_dem 一列标出距午夜不足三十分钟的时刻：恰恰在这些行上，上述误差可能改变节气起始的日期，因此不要在未核对天文数据的情况下据此定事。时间为越南时间 UTC+7。交节时刻指太阳黄经正好到达 15 度整数倍的瞬间，用二分法求到一分钟以内。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "trang": "/du-lieu/24-tiet-khi",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "trich_dan": "Nhật Nguyệt (2026). Mốc bắt đầu 24 tiết khí, 1900 tới 2100. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/moc-tiet-khi-1900-2100.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Start moments of the 24 solar terms, 1900 to 2100. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/moc-tiet-khi-1900-2100.csv",
+  "co_parquet": false
+}
