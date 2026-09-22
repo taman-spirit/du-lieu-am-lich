@@ -1,4 +1,4 @@
-id,loai_thuoc,ten_thuoc,chu_ky_mm,dung_de,thu_tu_cung,cung,cung_han,tot_xau,tu_mm,den_mm,y_nghia,cung_nho,nguon,ghi_chu
+﻿id,loai_thuoc,ten_thuoc,chu_ky_mm,dung_de,thu_tu_cung,cung,cung_han,tot_xau,tu_mm,den_mm,y_nghia,cung_nho,nguon,ghi_chu
 THONG_THUY-01,THONG_THUY,"Thước thông thủy 52,2cm",522,"Đo khoảng rỗng: lòng cửa đi, cửa sổ, ô thoáng, giếng trời.",1,Quý Nhân,貴人,tot,0,65.25,"Được người giúp đỡ, gặp quý nhân phù trợ.",Quyền lộc; Trung tín; Tác quan; Phát đạt; Thông minh,Lỗ Ban Kinh,
 THONG_THUY-02,THONG_THUY,"Thước thông thủy 52,2cm",522,"Đo khoảng rỗng: lòng cửa đi, cửa sổ, ô thoáng, giếng trời.",2,Hiểm Họa,險禍,xau,65.25,130.5,"Cung xấu, dân gian gắn với tai ương bất ngờ.",Tán thành; Thời nhân; Thất hiếu; Tai họa; Trường bệnh,Lỗ Ban Kinh,
 THONG_THUY-03,THONG_THUY,"Thước thông thủy 52,2cm",522,"Đo khoảng rỗng: lòng cửa đi, cửa sổ, ô thoáng, giếng trời.",3,Thiên Tai,天災,xau,130.5,195.75,"Cung xấu, gắn với bệnh tật và mất mát.",Hoàn tử; Quan tài; Thân bệnh; Thất tài; Cô quả,Lỗ Ban Kinh,

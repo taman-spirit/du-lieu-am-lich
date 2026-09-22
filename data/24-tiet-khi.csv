@@ -1,4 +1,4 @@
-id,nam,thu_tu,ten,ten_en,kinh_do_mat_troi,ngay_bat_dau,y_nghia,nguon,ghi_chu
+﻿id,nam,thu_tu,ten,ten_en,kinh_do_mat_troi,ngay_bat_dau,y_nghia,nguon,ghi_chu
 2020-01,2020,1,Tiểu Hàn,Minor Cold,285,2020-01-06,Bắt đầu rét đậm,tinh-toan,
 2020-02,2020,2,Đại Hàn,Major Cold,300,2020-01-20,Thời điểm rét nhất trong năm,tinh-toan,
 2020-03,2020,3,Lập Xuân,Start of Spring,315,2020-02-04,"Bắt đầu mùa xuân, cũng là mốc sang năm mới trong Tứ Trụ",tinh-toan,

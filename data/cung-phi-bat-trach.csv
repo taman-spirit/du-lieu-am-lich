@@ -1,4 +1,4 @@
-id,nam_sinh,gioi_tinh,cung_phi,que_menh,nhom_menh,huong_tot,huong_xau,nguon,ghi_chu
+﻿id,nam_sinh,gioi_tinh,cung_phi,que_menh,nhom_menh,huong_tot,huong_xau,nguon,ghi_chu
 1900-nam,1900,Nam,1,Khảm,dong_tu_menh,Đông Nam (Sinh Khí); Đông (Thiên Y); Nam (Diên Niên); Bắc (Phục Vị),Tây (Họa Hại); Tây Bắc (Lục Sát); Đông Bắc (Ngũ Quỷ); Tây Nam (Tuyệt Mệnh),Bát Trạch Minh Cảnh,
 1900-nu,1900,Nữ,8,Cấn,tay_tu_menh,Tây Nam (Sinh Khí); Tây Bắc (Thiên Y); Tây (Diên Niên); Đông Bắc (Phục Vị),Nam (Họa Hại); Đông Nam (Lục Sát); Bắc (Ngũ Quỷ); Đông (Tuyệt Mệnh),Bát Trạch Minh Cảnh,
 1901-nam,1901,Nam,9,Ly,dong_tu_menh,Đông (Sinh Khí); Đông Nam (Thiên Y); Bắc (Diên Niên); Nam (Phục Vị),Đông Bắc (Họa Hại); Tây Nam (Lục Sát); Tây (Ngũ Quỷ); Tây Bắc (Tuyệt Mệnh),Bát Trạch Minh Cảnh,

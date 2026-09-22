@@ -1,4 +1,4 @@
-id,ngay_duong,ngay_am,thang_am,nam_am,thang_nhuan,can_chi_ngay,can_chi_nam,tiet_khi,truc,ngay_hoang_dao,nhi_thap_bat_tu,nguon,ghi_chu
+﻿id,ngay_duong,ngay_am,thang_am,nam_am,thang_nhuan,can_chi_ngay,can_chi_nam,tiet_khi,truc,ngay_hoang_dao,nhi_thap_bat_tu,nguon,ghi_chu
 1900-01-01,1900-01-01,1,12,1899,khong,Giáp Tuất,Kỷ Hợi,Đông Chí,Khai,khong,Tâm,tinh-toan,
 1900-01-02,1900-01-02,2,12,1899,khong,Ất Hợi,Kỷ Hợi,Đông Chí,Bế,khong,Vĩ,tinh-toan,
 1900-01-03,1900-01-03,3,12,1899,khong,Bính Tý,Kỷ Hợi,Đông Chí,Kiến,co,Cơ,tinh-toan,
