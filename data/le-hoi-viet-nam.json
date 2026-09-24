@@ -29,17 +29,17 @@
   },
   {
     "ghi_chu": "",
-    "id": "le-hoi-chua-huong",
+    "id": "le-hoi-co-loa",
     "loai_ngay": "lunar",
-    "mo_ta": "Lễ hội Chùa Hương là lễ hội hành hương lớn nhất miền Bắc, khai hội vào ngày mùng 6 tháng Giêng tại sân chùa Thiên Trù và kéo dài đến hết tháng 3 âm lịch.",
-    "muc_do": "major",
+    "mo_ta": "Lễ hội Cổ Loa được tổ chức vào ngày mùng 6 tháng Giêng tại khu di tích Cổ Loa, tưởng nhớ vua An Dương Vương, người lập nên nhà nước Âu Lạc và xây thành Cổ Loa.",
+    "muc_do": "minor",
     "ngay_am": "6/1",
     "ngay_duong": "",
     "ngay_nghi_le": "khong",
     "nguon": "bien-tap",
     "nhom": "tin-nguong",
-    "ten": "Lễ hội Chùa Hương",
-    "ten_en": "Perfume Pagoda Festival"
+    "ten": "Lễ hội Cổ Loa",
+    "ten_en": "Cổ Loa Festival"
   },
   {
     "ghi_chu": "",
@@ -57,17 +57,17 @@
   },
   {
     "ghi_chu": "",
-    "id": "le-hoi-co-loa",
+    "id": "le-hoi-chua-huong",
     "loai_ngay": "lunar",
-    "mo_ta": "Lễ hội Cổ Loa được tổ chức vào ngày mùng 6 tháng Giêng tại khu di tích Cổ Loa, tưởng nhớ vua An Dương Vương, người lập nên nhà nước Âu Lạc và xây thành Cổ Loa.",
-    "muc_do": "minor",
+    "mo_ta": "Lễ hội Chùa Hương là lễ hội hành hương lớn nhất miền Bắc, khai hội vào ngày mùng 6 tháng Giêng tại sân chùa Thiên Trù và kéo dài đến hết tháng 3 âm lịch.",
+    "muc_do": "major",
     "ngay_am": "6/1",
     "ngay_duong": "",
     "ngay_nghi_le": "khong",
     "nguon": "bien-tap",
     "nhom": "tin-nguong",
-    "ten": "Lễ hội Cổ Loa",
-    "ten_en": "Cổ Loa Festival"
+    "ten": "Lễ hội Chùa Hương",
+    "ten_en": "Perfume Pagoda Festival"
   },
   {
     "ghi_chu": "",
@@ -127,20 +127,6 @@
   },
   {
     "ghi_chu": "",
-    "id": "le-khai-an-den-tran",
-    "loai_ngay": "lunar",
-    "mo_ta": "Lễ Khai ấn Đền Trần diễn ra vào đêm 14 rạng sáng 15 tháng Giêng tại Đền Trần, TP Nam Định, tục lệ có từ thời Trần với ý nghĩa cầu quốc thái dân an.",
-    "muc_do": "major",
-    "ngay_am": "15/1",
-    "ngay_duong": "",
-    "ngay_nghi_le": "khong",
-    "nguon": "bien-tap",
-    "nhom": "tin-nguong",
-    "ten": "Lễ Khai ấn Đền Trần",
-    "ten_en": "Trần Temple Seal-Opening Ceremony"
-  },
-  {
-    "ghi_chu": "",
     "id": "ram-thang-gieng",
     "loai_ngay": "lunar",
     "mo_ta": "Ngày rằm đầu tiên của năm âm lịch, dịp đi lễ chùa cầu an đầu năm.",
@@ -152,6 +138,20 @@
     "nhom": "le-tet",
     "ten": "Rằm tháng Giêng (Tết Nguyên Tiêu)",
     "ten_en": "First Full Moon Festival (Tết Nguyên Tiêu)"
+  },
+  {
+    "ghi_chu": "",
+    "id": "le-khai-an-den-tran",
+    "loai_ngay": "lunar",
+    "mo_ta": "Lễ Khai ấn Đền Trần diễn ra vào đêm 14 rạng sáng 15 tháng Giêng tại Đền Trần, TP Nam Định, tục lệ có từ thời Trần với ý nghĩa cầu quốc thái dân an.",
+    "muc_do": "major",
+    "ngay_am": "15/1",
+    "ngay_duong": "",
+    "ngay_nghi_le": "khong",
+    "nguon": "bien-tap",
+    "nhom": "tin-nguong",
+    "ten": "Lễ Khai ấn Đền Trần",
+    "ten_en": "Trần Temple Seal-Opening Ceremony"
   },
   {
     "ghi_chu": "",
@@ -351,20 +351,6 @@
   },
   {
     "ghi_chu": "",
-    "id": "le-via-ba-linh-son-thanh-mau",
-    "loai_ngay": "lunar",
-    "mo_ta": "Lễ hội tín ngưỡng dân gian thờ Linh Sơn Thánh Mẫu (Bà Đen), tổ chức từ 4-6 tháng 5 âm lịch tại núi Bà Đen với nghi thức tắm Bà, thay áo và lễ vía chính vào ngày 5/5; được công nhận Di sản văn hóa phi vật thể quốc gia năm 2019.",
-    "muc_do": "minor",
-    "ngay_am": "5/5",
-    "ngay_duong": "",
-    "ngay_nghi_le": "khong",
-    "nguon": "bien-tap",
-    "nhom": "tin-nguong",
-    "ten": "Lễ vía Bà Linh Sơn Thánh Mẫu (núi Bà Đen)",
-    "ten_en": "Linh Sơn Holy Mother Festival, Bà Đen Mountain"
-  },
-  {
-    "ghi_chu": "",
     "id": "tet-doan-ngo",
     "loai_ngay": "lunar",
     "mo_ta": "Ngày diệt sâu bọ theo quan niệm dân gian, ăn rượu nếp và trái cây chua vào sáng sớm.",
@@ -376,6 +362,20 @@
     "nhom": "le-tet",
     "ten": "Tết Đoan Ngọ",
     "ten_en": "Doan Ngo Festival (\"Killing Summer Insects\" Day)"
+  },
+  {
+    "ghi_chu": "",
+    "id": "le-via-ba-linh-son-thanh-mau",
+    "loai_ngay": "lunar",
+    "mo_ta": "Lễ hội tín ngưỡng dân gian thờ Linh Sơn Thánh Mẫu (Bà Đen), tổ chức từ 4-6 tháng 5 âm lịch tại núi Bà Đen với nghi thức tắm Bà, thay áo và lễ vía chính vào ngày 5/5; được công nhận Di sản văn hóa phi vật thể quốc gia năm 2019.",
+    "muc_do": "minor",
+    "ngay_am": "5/5",
+    "ngay_duong": "",
+    "ngay_nghi_le": "khong",
+    "nguon": "bien-tap",
+    "nhom": "tin-nguong",
+    "ten": "Lễ vía Bà Linh Sơn Thánh Mẫu (núi Bà Đen)",
+    "ten_en": "Linh Sơn Holy Mother Festival, Bà Đen Mountain"
   },
   {
     "ghi_chu": "",
