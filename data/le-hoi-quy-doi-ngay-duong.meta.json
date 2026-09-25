@@ -8,9 +8,9 @@
   "mo_ta_zh": "五年间每个节庆的实际公历日期，附星期。农历节庆每年落在不同的公历日，本表已预先算好。",
   "giay_phep": "CC-BY-4.0",
   "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
-  "phien_ban": "1.0.0",
-  "cap_nhat": "2026-09-21",
-  "so_dong": 240,
+  "phien_ban": "1.1.0",
+  "cap_nhat": "2026-09-26",
+  "so_dong": 795,
   "cot": [
     {
       "ten": "id",
@@ -97,7 +97,7 @@
   "ma_hoa": "UTF-8 không BOM",
   "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
   "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
-  "trich_dan": "Nhật Nguyệt (2026). Lễ hội Việt Nam quy đổi sang ngày dương, 2026 tới 2030. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-quy-doi-ngay-duong.csv",
-  "trich_dan_en": "Nhật Nguyệt (2026). Vietnamese festivals mapped to solar dates, 2026 to 2030. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-quy-doi-ngay-duong.csv",
+  "trich_dan": "Nhật Nguyệt (2026). Lễ hội Việt Nam quy đổi sang ngày dương, 2026 tới 2030. Phiên bản 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-quy-doi-ngay-duong.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Vietnamese festivals mapped to solar dates, 2026 to 2030. Version 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-quy-doi-ngay-duong.csv",
   "co_parquet": false
 }
