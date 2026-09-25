@@ -1,20 +1,6 @@
 [
   {
     "ghi_chu": "",
-    "id": "tet-duong-lich",
-    "loai_ngay": "solar",
-    "mo_ta": "Ngày đầu năm mới theo dương lịch, 1 trong 6 dịp nghỉ lễ chính thức theo Bộ luật Lao động.",
-    "muc_do": "major",
-    "ngay_am": "",
-    "ngay_duong": "1/1",
-    "ngay_nghi_le": "co",
-    "nguon": "bien-tap",
-    "nhom": "khac",
-    "ten": "Tết Dương Lịch",
-    "ten_en": "New Year's Day"
-  },
-  {
-    "ghi_chu": "",
     "id": "tet-nguyen-dan",
     "loai_ngay": "lunar",
     "mo_ta": "Ngày đầu năm mới âm lịch, lễ lớn nhất trong năm của người Việt, dịp sum họp gia đình và cúng gia tiên.",
@@ -26,6 +12,20 @@
     "nhom": "le-tet",
     "ten": "Tết Nguyên Đán",
     "ten_en": "Lunar New Year (Tết)"
+  },
+  {
+    "ghi_chu": "",
+    "id": "tet-duong-lich",
+    "loai_ngay": "solar",
+    "mo_ta": "Ngày đầu năm mới theo dương lịch, 1 trong 6 dịp nghỉ lễ chính thức theo Bộ luật Lao động.",
+    "muc_do": "major",
+    "ngay_am": "",
+    "ngay_duong": "1/1",
+    "ngay_nghi_le": "co",
+    "nguon": "bien-tap",
+    "nhom": "khac",
+    "ten": "Tết Dương Lịch",
+    "ten_en": "New Year's Day"
   },
   {
     "ghi_chu": "",
@@ -351,20 +351,6 @@
   },
   {
     "ghi_chu": "",
-    "id": "tet-doan-ngo",
-    "loai_ngay": "lunar",
-    "mo_ta": "Ngày diệt sâu bọ theo quan niệm dân gian, ăn rượu nếp và trái cây chua vào sáng sớm.",
-    "muc_do": "major",
-    "ngay_am": "5/5",
-    "ngay_duong": "",
-    "ngay_nghi_le": "khong",
-    "nguon": "bien-tap",
-    "nhom": "le-tet",
-    "ten": "Tết Đoan Ngọ",
-    "ten_en": "Doan Ngo Festival (\"Killing Summer Insects\" Day)"
-  },
-  {
-    "ghi_chu": "",
     "id": "le-via-ba-linh-son-thanh-mau",
     "loai_ngay": "lunar",
     "mo_ta": "Lễ hội tín ngưỡng dân gian thờ Linh Sơn Thánh Mẫu (Bà Đen), tổ chức từ 4-6 tháng 5 âm lịch tại núi Bà Đen với nghi thức tắm Bà, thay áo và lễ vía chính vào ngày 5/5; được công nhận Di sản văn hóa phi vật thể quốc gia năm 2019.",
@@ -376,6 +362,20 @@
     "nhom": "tin-nguong",
     "ten": "Lễ vía Bà Linh Sơn Thánh Mẫu (núi Bà Đen)",
     "ten_en": "Linh Sơn Holy Mother Festival, Bà Đen Mountain"
+  },
+  {
+    "ghi_chu": "",
+    "id": "tet-doan-ngo",
+    "loai_ngay": "lunar",
+    "mo_ta": "Ngày diệt sâu bọ theo quan niệm dân gian, ăn rượu nếp và trái cây chua vào sáng sớm.",
+    "muc_do": "major",
+    "ngay_am": "5/5",
+    "ngay_duong": "",
+    "ngay_nghi_le": "khong",
+    "nguon": "bien-tap",
+    "nhom": "le-tet",
+    "ten": "Tết Đoan Ngọ",
+    "ten_en": "Doan Ngo Festival (\"Killing Summer Insects\" Day)"
   },
   {
     "ghi_chu": "",
@@ -533,20 +533,6 @@
   },
   {
     "ghi_chu": "",
-    "id": "ngay-quoc-te-nguoi-cao-tuoi",
-    "loai_ngay": "solar",
-    "mo_ta": "Ngày 1/10 là Ngày Quốc tế Người cao tuổi do Liên Hợp Quốc công bố năm 1990, Việt Nam hưởng ứng từ năm 1991 và gắn với \"Tháng hành động vì Người cao tuổi\" theo Quyết định 544/QĐ-TTg (2015).",
-    "muc_do": "minor",
-    "ngay_am": "",
-    "ngay_duong": "1/10",
-    "ngay_nghi_le": "khong",
-    "nguon": "bien-tap",
-    "nhom": "khac",
-    "ten": "Ngày Quốc tế Người cao tuổi",
-    "ten_en": "International Day of Older Persons"
-  },
-  {
-    "ghi_chu": "",
     "id": "le-hoi-kate",
     "loai_ngay": "solar",
     "mo_ta": "Katê là lễ hội lớn nhất trong năm của người Chăm Bàlamôn ở Ninh Thuận và Bình Thuận, tổ chức vào đầu tháng 7 theo lịch Chăm (không trùng âm lịch Việt) để tưởng nhớ tổ tiên, thần linh và các vị vua có công với dân tộc Chăm, thời điểm cụ thể theo dương lịch dao động cuối tháng 9 đến đầu tháng 10 mỗi năm.",
@@ -558,6 +544,20 @@
     "nhom": "tin-nguong",
     "ten": "Lễ hội Katê",
     "ten_en": "Katê Festival"
+  },
+  {
+    "ghi_chu": "",
+    "id": "ngay-quoc-te-nguoi-cao-tuoi",
+    "loai_ngay": "solar",
+    "mo_ta": "Ngày 1/10 là Ngày Quốc tế Người cao tuổi do Liên Hợp Quốc công bố năm 1990, Việt Nam hưởng ứng từ năm 1991 và gắn với \"Tháng hành động vì Người cao tuổi\" theo Quyết định 544/QĐ-TTg (2015).",
+    "muc_do": "minor",
+    "ngay_am": "",
+    "ngay_duong": "1/10",
+    "ngay_nghi_le": "khong",
+    "nguon": "bien-tap",
+    "nhom": "khac",
+    "ten": "Ngày Quốc tế Người cao tuổi",
+    "ten_en": "International Day of Older Persons"
   },
   {
     "ghi_chu": "",
